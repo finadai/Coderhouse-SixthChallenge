@@ -6,6 +6,8 @@ const handlebars = require('express-handlebars');
 const port = 8000;
 const sessionsRouter = require("./routes/sessions.router")
 const viewsRouter = require("./routes/views.router")
+const passport = require('passport')
+const bcrypt = require('bcrypt')
 
 const app = express();
 
